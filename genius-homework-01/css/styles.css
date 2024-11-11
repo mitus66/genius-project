@@ -1,4 +1,40 @@
+/* roboto-slab-regular - cyrillic-ext_latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v34-cyrillic-ext_latin-regular.woff2') format('woff2'); 
+    }
+    /* roboto-slab-600 - cyrillic-ext_latin */
+    @font-face {
+    font-display: swap; 
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-slab-v34-cyrillic-ext_latin-600.woff2') format('woff2'); 
+    }
+    /* play-regular - latin */
+    /* play-regular - cyrillic-ext_latin */
+    @font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic-ext_latin-regular.woff2') format('woff2'); 
+    }
+    /* play-700 - cyrillic-ext_latin */
+    @font-face {
+    font-display: swap; 
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic-ext_latin-700.woff2') format('woff2'); 
+    }
 :root {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18;
     brend-color: #2B7FFF;
     main-color: #011C44;
     footer-color: #011F4A
