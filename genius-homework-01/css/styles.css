@@ -31,12 +31,92 @@
     font-weight: 700;
     src: url('../fonts/play-v19-cyrillic-ext_latin-700.woff2') format('woff2'); 
     }
+
 :root {
-    font-family: Roboto;
+    font-family: roboto-slab-v34-cyrillic-ext_latin-regular;
     font-weight: 400;
     font-size: 18;
-    brend-color: #2B7FFF;
-    main-color: #011C44;
-    footer-color: #011F4A
-    copyright-color: #747272;
+    font-style: #000000;
+    --brand-color-dark: #011C44;
+    --brand-color-light: #2B7FFF;
+    --footer-bg-color: #011F4A;
+    --copyright-color: #747272;
+    --text-footer-color: #ffffff;
 }
+
+/* Navigation */
+nav a {
+    text-decoration: none;
+    color: var(--brand-color-dark);
+
+    &:visited, &:active {
+        color: var(--brand-color-dark);
+    }
+
+    &:hover {
+        color:var(--brand-color-dark);
+    }
+}
+
+.logo {
+    color: var(--brand-color-light);
+    font: 22px play-v19-cyrillic-ext_latin-700 ;
+    font-weight: 700;
+    line-height: 21px;
+
+    &:visited, &:active {
+        color: var(--brand-color-light);
+    }
+
+    &:hover {
+        color:var(--brand-color-light);
+    }
+}
+
+.active {
+    color: var(--brand-color-light);
+    font: 18px roboto-slab-v34-cyrillic-ext_latin-600;
+    font-weight: 400;
+
+    &:visited, &:active {
+        color: var(--brand-color-light);
+    }
+
+    &:hover {
+        color:var(--brand-color-light);
+    }
+} 
+
+
+
+/* Footer */
+footer a {
+    text-decoration: none;
+    color: var(--text-footer-color);
+    font-size: 16px;
+
+    &:visited, &:active {
+        color: var(--text-footer-color);
+    }
+
+    &:hover {
+        color: var(--text-footer-color);
+    }
+}
+
+.logo {
+    color: var(--brand-color-light);
+    font: 22px play-v19-cyrillic-ext_latin-700 ;
+    font-weight: 700;
+    line-height: 21px;
+
+    &:visited, &:active {
+        color: var(--brand-color-light);
+    }
+
+    &:hover {
+        color:var(--brand-color-light);
+    }
+}
+
+
